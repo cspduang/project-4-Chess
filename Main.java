@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) throws FileNotFoundException {
         ChessBoard board = new ChessBoard();
 
-        Scanner scan = new Scanner(new File("input.txt"));
+        Scanner scan = new Scanner(new File("new_input.txt"));
         String line;
         String[] lineSegment;
         while(scan.hasNextLine())
